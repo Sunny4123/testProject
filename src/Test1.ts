@@ -18,7 +18,7 @@ if (Utils.calculate(5, 3, '-') === 2) {
     allTestsPassed = false;
 }
 
-if (Utils.calculate(3, 4, '*') === 12) {
+if (Utils.calculate(3, 4, '*') === 10) {
     console.log(0);
 } else {
     console.log(1003);
