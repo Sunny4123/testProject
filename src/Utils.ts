@@ -1,4 +1,4 @@
-function calculate(a: number, b: number, operator: '+' | '-' | '*' | '/'): number | null {
+function calculate(a: number, b: number, operator:string) {
     switch (operator) {
         case '+':
             return a + b;
