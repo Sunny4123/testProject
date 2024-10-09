@@ -4,7 +4,7 @@ exports.Utils = void 0;
 function calculate(a, b, operator) {
     switch (operator) {
         case '+':
-            return a + b;
+            return a + b + a;
         case '-':
             return a - b;
         case '*':
