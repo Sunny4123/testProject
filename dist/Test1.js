@@ -16,7 +16,7 @@ else {
     console.log(1002);
     allTestsPassed = false;
 }
-if (Utils_1.Utils.calculate(3, 4, '*') === 10) {
+if (Utils_1.Utils.calculate(3, 4, '*') === 12) {
     console.log(0);
 }
 else {
