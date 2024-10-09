@@ -1,7 +1,7 @@
 function calculate(a: number, b: number, operator:string) {
     switch (operator) {
         case '+':
-            return a + b+a;
+            return a + b;
         case '-':
             return a - b;
         case '*':
