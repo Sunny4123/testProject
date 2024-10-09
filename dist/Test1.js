@@ -4,7 +4,7 @@ const Utils_1 = require("./Utils");
 let allTestsPassed = true;
 // Define test cases as an array of objects
 const testCases = [
-    { a: 1, b: 10, op: '+', expected: 2, testId: 1001 },
+    { a: 1, b: 1, op: '+', expected: 2, testId: 1001 },
     { a: 5, b: 3, op: '-', expected: 2, testId: 1002 },
     { a: 4, b: 2, op: '*', expected: 8, testId: 1003 }, // example new test case
     { a: 10, b: 2, op: '/', expected: 5, testId: 1004 },
@@ -21,16 +21,16 @@ testCases.forEach(test => {
         allTestsPassed = false;
     }
 });
+// if (Utils.calculate(1, 1, '+') === 4) {
+//     console.log(0);
+// } else {
+//     console.log(1);
+//     allTestsPassed = false;
+// }
 // Exit with appropriate code
 process.exit(allTestsPassed ? 0 : 1);
 // import { Utils } from "./Utils";
 // let allTestsPassed = true;
-// if (Utils.calculate(1, 1, '+') === 4) {
-//     console.log(0);
-// } else {
-//     console.log(1001);
-//     allTestsPassed = false;
-// }
 // if (Utils.calculate(5, 3, '-') === 2) {
 //     console.log(0);
 // } else {
