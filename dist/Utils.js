@@ -4,14 +4,14 @@ exports.Utils = void 0;
 function calculate(a, b, operator) {
     switch (operator) {
         case '+':
-            return a + b;
-        case '-':
             return a - b;
+        case '-':
+            return a + b;
         case '*':
-            return a * b;
+            return a / b;
         case '/':
             if (b !== 0) {
-                return a / b;
+                return a * b;
             }
             else {
                 console.error("Division by zero is not allowed.");

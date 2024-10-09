@@ -22,6 +22,9 @@ testCases.forEach(test => {
     }
 });
 
+
+process.exit(allTestsPassed ? 0 : 1);
+
 // if (Utils.calculate(1, 1, '+') === 4) {
 //     console.log(0);
 // } else {
@@ -29,7 +32,6 @@ testCases.forEach(test => {
 //     allTestsPassed = false;
 // }
 // Exit with appropriate code
-process.exit(allTestsPassed ? 0 : 1);
 
 // import { Utils } from "./Utils";
 
