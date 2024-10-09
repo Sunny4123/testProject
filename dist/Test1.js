@@ -8,7 +8,7 @@ const testCases = [
     { a: 5, b: 3, op: '-', expected: 2, testId: 1002 },
     { a: 4, b: 2, op: '*', expected: 8, testId: 1003 }, // example new test case
     { a: 10, b: 2, op: '/', expected: 5, testId: 1004 },
-    { a: 10, b: 0, op: '/', expected: 'null', testId: 1005 } // example new test case
+    { a: 10, b: 0, op: '/', expected: null, testId: 1005 } // example new test case
 ];
 // Function to run each test case
 testCases.forEach(test => {
