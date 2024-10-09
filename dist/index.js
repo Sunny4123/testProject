@@ -12,4 +12,3 @@ app.get('/', (req, res) => {
 app.listen(port, () => {
     console.log('server is ' + port);
 });
-//web brow localhost:3000?userid=1 <---res          (ts)myserver (addUser) <--res-- (3 party) jsonplace... users

@@ -22,7 +22,3 @@ function calculate(a: number, b: number, operator:string) {
 export const Utils = { calculate }
 
 
-//web browser (google.com) ---> (request) ---> google company server
-
-//                 <html>... (html)  <-- (respon) -----google company server
-

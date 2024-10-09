@@ -23,5 +23,3 @@ function calculate(a, b, operator) {
     }
 }
 exports.Utils = { calculate };
-//web browser (google.com) ---> (request) ---> google company server
-//                 <html>... (html)  <-- (respon) -----google company server

@@ -8,7 +8,7 @@ const testCases = [
     { a: 5, b: 3, op: '-', expected: 2, testId: 1002 },
     { a: 4, b: 2, op: '*', expected: 8, testId: 1003 }, // example new test case
     { a: 10, b: 2, op: '/', expected: 5, testId: 1004 },
-    { a: 10, b: 0, op: '/', expected: null, testId: 1005 } // example new test case
+    { a: 10, b: 0, op: '/', expected: null, testId: 1005 }
 ];
 // Function to run each test case
 testCases.forEach(test => {
@@ -22,33 +22,3 @@ testCases.forEach(test => {
     }
 });
 process.exit(allTestsPassed ? 0 : 1);
-// if (Utils.calculate(1, 1, '+') === 4) {
-//     console.log(0);
-// } else {
-//     console.log(1);
-//     allTestsPassed = false;
-// }
-// Exit with appropriate code
-// import { Utils } from "./Utils";
-// let allTestsPassed = true;
-// if (Utils.calculate(5, 3, '-') === 2) {
-//     console.log(0);
-// } else {
-//     console.log(1002);
-//     allTestsPassed = false;
-// }
-// // if (Utils.calculate(3, 4, '*') === 10) {
-// //     console.log(0);
-// // } else {
-// //     console.log(1003);
-// //     allTestsPassed = false;
-// // }
-// // if (Utils.calculate(10, 2, '/') === 5) {
-// //     console.log(0);
-// // } else {
-// //     console.log(1004);
-// //     allTestsPassed = false;
-// // }
-// // if (!allTestsPassed) {
-// //     console.log(1005);
-// // }
